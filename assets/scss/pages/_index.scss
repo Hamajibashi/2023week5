@@ -1,3 +1,39 @@
-.index-title {
-  font-size: 100px;
+.courses {
+  margin-left: 50px;
+  background: transparent;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: 0;
+  content: "";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.list-group-item.active {
+  color: #212529;
+  background-color: #F8F9FA;
+  border: solid 1px #CED4DA;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  color: #CED4DA;
+}
+
+.card,
+.btn {
+  border-radius: 2px;
+}
+
+a {
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.8;
+  }
 }
